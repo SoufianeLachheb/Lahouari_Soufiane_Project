@@ -5,101 +5,26 @@
     <meta name="viewport" content="width=device-width">
     <title>Intro au html</title>
     <link href="./lahouari_files/style.css" rel="stylesheet" type="text/css">
-    <style>
-        .green-title {
-            color: green;
-        }
-
-        .text-red {
-            color: red;
-        }
-        /* CSS to position footer content at the bottom */
-        footer {
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            text-align: center;
-        }
-        /* Style to make the video take full width
-        video {
-            width: 100%;
-            height: auto;
-        }
-        */
-    </style>
 
 </head>
 
 <body>
-    <header>
-        <h1 style="text-align:center">Guelaz - Developpeur</h1>
-        <!--contact-->
-        <hr>
-        <div style="text-align:center">
-            <img src="./lahouari_files/img_avatar.png" alt="Avatar" style="width:100px; height:auto;">
-            <a href="mailto:guelazlahouari@live.fr" title="Envoyez un mail">Mail</a>
-            <a href="tel:0638125115" title="voici mon numero">Telephone</a>
-            <a href="https://www.linkedin.com/in/guelaz-lahouari-3z/" target="_blank">Linkedin</a>
-            <a href="https://laohay.github.io/HTMLCSS_CV/GUELAZ_LAHOUARI_Data.pdf" download="">telecharger le CV</a>
-        </div>
-        <hr>
-        <!--description-->
-        <em>
-            <p>
-                Passionne de programation, je suis en bachelor de developeur full stack python , j'ai pu developer une
-                experience solide grace au different projets realise.
-            </p>
-        </em>
-    </header>
-    <section>
-        <h2 class="green-title" experiences="">Experiences</h2>
-        <ul>
-            <li>
-                <strong>juin 2023 |
-                    <span style="color:red">developpeur data |DIGITAL CODERS</span>
-                </strong>
-            </li>
-            <br>
-            <li>
-                <strong>
-                    2019-2022 | <span class="text-red">Ingenieur consultant |CAPGEMINI</span>
-                </strong>
-            </li>
-        </ul>
-    </section>
-    <section>
-        <h2 class="green-title" experiences="">Education</h2>
-        <ul>
-            <li>
-                <strong>
-                    2022-2024 | MASTER data/IA | HETIC
-                </strong>
-            </li>
-            <br>
-            <li>
-                <strong>
-                    2016-2017 | License Admin sys resaux | IPREC
-                </strong>
-            </li>
-        </ul>
-    </section>
-    <!-- Footer section -->
-<footer>
-    <div style="text-align:center">
-        <!-- Embed a video -->
-        <video width="320" height="240" autoplay="">
-            <source src="matrix_47802(720p).mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+    <h1 style="color: red;">tabon mok</h1>
 
-        <!-- Embed an audio -->
-        <audio autoplay="">
-            <source src="relaxing-145038.mp3" type="audio/mpeg">
-            Your browser does not support the audio tag.
-        </audio>
-    </div>
-</footer>
+    <div id="canvas_container"></div>
 
+<button id="fullscr">Go Fullscreen</button> 
 
+<script src="
+https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js
+"></script>
+<script src="
+https://cdn.jsdelivr.net/npm/three@0.121.1/build/three.min.js
+"></script>
+<script src="
+https://cdn.jsdelivr.net/npm/three@0.121.1/examples/js/controls/OrbitControls.js
+"></script>
+<script src="./main.js"></script>
 
 </body></html>
+
